@@ -23,9 +23,7 @@ jobs:
         run: pnpm install
 
       - name: Build Slidev
-        run: |
-          pnpm run build
-          cp dist/index.html dist/404.html
+        run: pnpm run build
 
       - name: Add .nojekyll file
         run: touch dist/.nojekyll
