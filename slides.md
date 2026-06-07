@@ -1,6 +1,5 @@
 ---
 title: Portfólió védés - B9XGEP
-routerMode: hash
 ---
 
 <div class="absolute inset-0 flex flex-col font-sans">
