@@ -27,23 +27,23 @@ routerMode: hash
 Szakmai bemutatkozás
 ::default::
 
-<div class="grid grid-cols-2 gap-10">
-  <div class="space-y-3">
+<div class="flex justify-center">
+  <div class="space-y-2">
     <div>
       <h3 class="text-2xl font-bold mb-2 flex items-center"><div class="i-carbon-building mr-3 text-[#1a2a5a]"/>IT iparági tapasztalat</h3>
       <p class="opacity-80">10+ év szoftverfejlesztői és mérnöki tapasztalat (Siemens, Deutsche Telekom).</p>
     </div>
     <div>
       <h3 class="text-2xl font-bold mb-2 flex items-center"><div class="i-carbon-education mr-3 text-[#1a2a5a]"/>Pedagógiai előélet</h3>
-      <ul class="list-disc pl-5 opacity-80 space-y-2">
+      <ul class="list-disc pl-5 opacity-80 space-y-1">
         <li>Külső óraadó az Eszterházy Egyetemen.</li>
         <li>Informatikatanár és rendszergazda a Wignerben.</li>
       </ul>
     </div>
-  </div>
   <div>
     <h3 class="text-2xl font-bold mb-2 flex items-center"><div class="i-carbon-growth mr-3 text-[#1a2a5a]"/>Célkitűzés</h3>
     <p class="opacity-80">A mély technológiai tudás ötvözése a középiskolai oktatással.</p>
+  </div>
   </div>
 </div>
 
@@ -121,7 +121,7 @@ Pályaismereti gyakorlat
     <div class="i-carbon-location text-3xl text-[#1a2a5a]" />
     <p class="text-xl mb-6"><strong class="text-[#1a2a5a]">Helyszín:</strong> Egri Szilágyi Erzsébet Gimnázium</p>
   </div>
-  <div class="space-y-6">
+  <div class="space-y-3 mt-6">
     <div class="flex gap-4 items-center">
       <div class="i-carbon-group text-3xl text-[#1a2a5a]" />
       <p><strong>Közösségépítés:</strong> <em>Bang!</em> kártyajáték tematikájú diáknap és érzelmi közösségformálás.</p>
@@ -233,10 +233,9 @@ Pályaidentitás és jövőkép
 Végső reflexió
 ::default::
 
-<div class="mt-12 bg-white/5 p-10 rounded-2xl border border-white/10 relative">
-  <div class="i-carbon-quotes text-5xl absolute -top-6 -left-6 text-[#1a2a5a]" />
-  <p class="text-2xl italic leading-relaxed opacity-90 mb-6">
+<div class="bg-white/5 p-10 rounded-2xl border border-white/10 relative">
+  <p class="text-3xl italic leading-relaxed opacity-90 mb-6">
     A tanítás nemcsak tudásátadás, hanem érzelmi biztonság és inspiráló közösség teremtése. Az IT szakember szerepéből reflektív pedagógussá váltam.
   </p>
-  <h1 class="text-center text-4xl font-bold text-[#1a2a5a]">Köszönöm a figyelmet!</h1>
+  <h1 class="text-center text-5xl font-bold text-[#1a2a5a]">Köszönöm a figyelmet!</h1>
 </div>
