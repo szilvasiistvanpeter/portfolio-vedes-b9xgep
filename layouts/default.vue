@@ -23,7 +23,7 @@
       </div>
 
       <div class="relative z-10 text-[#1a2a5a]">
-        <slot />
+        <slot name="default" />
       </div>
     </main>
   </div>
