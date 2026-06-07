@@ -1,14 +1,15 @@
 ---
 title: Portfólió védés - B9XGEP
+routerMode: hash
 ---
 
 <div class="absolute inset-0 flex flex-col font-sans">
-    <div class="w-full h-[55%] bg-[#1a2a5a] flex items-start justify-center pt-24 relative">
+  <div class="w-full h-[55%] bg-[#1a2a5a] flex items-start justify-center pt-24 relative">
     <h1 class="text-6xl font-bold text-white tracking-wide z-10 m-0 border-none">
       <strong>Portfólió védés</strong>
     </h1>
   </div>
-<div class="w-full h-[45%] bg-white flex flex-col items-center justify-start pt-5 relative text-[#1a2a5a]">
+  <div class="w-full h-[45%] bg-white flex flex-col items-center justify-start pt-5 relative text-[#1a2a5a]">
     <p class="text-2xl opacity-90 mt-10">Informatikatanár (Digitális kultúra tanára)</p>
     <p class="text-4xl font-bold mt-2 mb-1">Szilvási István Péter</p>
     <p class="text-xl font-bold opacity-80 m-0">B9XGEP</p>
@@ -52,33 +53,33 @@ Szakmai bemutatkozás
 Tanítási gyakorlat
 ::default::
 
-  <div>
+<div>
   <div class="flex gap-4 items-center">
     <div class="i-carbon-location text-3xl text-[#1a2a5a]" />
     <p class="mb-4 text-xl"><strong class="text-[#1a2a5a]">Helyszín:</strong> Gárdonyi Géza Ciszterci Gimnázium</p>
   </div>
-    <p class="opacity-80"><strong>Fókusz:</strong> Érettségi felkészítés és IKT integráció (Python, Word nagydokumentumok).</p>
-    <div class="mt-4">
-      <div class="flex gap-4 items-center">
-        <div class="i-carbon-tools" />
-        <h3 class="text-xl font-bold">Módszerek</h3>
-      </div>
-      <ul class="space-y-1">
-        <li class="flex items-center"><div class="i-carbon-checkmark text-green mr-3" /> Folyamatos monitorozás</li>
-        <li class="flex items-center"><div class="i-carbon-checkmark text-green mr-3" /> Élő kódolás</li>
-      </ul>
-    </div>
-  </div>
+  <p class="opacity-80"><strong>Fókusz:</strong> Érettségi felkészítés és IKT integráció (Python, Word nagydokumentumok).</p>
   <div class="mt-4">
     <div class="flex gap-4 items-center">
-      <div class="i-carbon-idea" />      
-      <h3 class="text-xl font-bold text-[#1a2a5a]">Tanulság</h3>
+      <div class="i-carbon-tools" />
+      <h3 class="text-xl font-bold">Módszerek</h3>
     </div>
     <ul class="space-y-1">
-        <li class="flex items-center"><div class="i-carbon-checkmark text-green mr-3" /> Tanulói kognitív túlterhelés felismerése</li>
-        <li class="flex items-center"><div class="i-carbon-checkmark text-green mr-3" /> Komplex problémák mikrolépésekre bontása</li>
-      </ul>
+      <li class="flex items-center"><div class="i-carbon-checkmark text-green mr-3" /> Folyamatos monitorozás</li>
+      <li class="flex items-center"><div class="i-carbon-checkmark text-green mr-3" /> Élő kódolás</li>
+    </ul>
   </div>
+</div>
+<div class="mt-4">
+  <div class="flex gap-4 items-center">
+    <div class="i-carbon-idea" />      
+    <h3 class="text-xl font-bold text-[#1a2a5a]">Tanulság</h3>
+  </div>
+  <ul class="space-y-1">
+    <li class="flex items-center"><div class="i-carbon-checkmark text-green mr-3" /> Tanulói kognitív túlterhelés felismerése</li>
+    <li class="flex items-center"><div class="i-carbon-checkmark text-green mr-3" /> Komplex problémák mikrolépésekre bontása</li>
+  </ul>
+</div>
 
 ---
 
@@ -106,7 +107,6 @@ Tanítási gyakorlat
       </div>
       <p class="text-sm opacity-80">Analitikus értékelő rubrika: fókusz áthelyezése a végeredményről a kódminőségre.</p>
     </div>
-
   </div>
 </div>
 
@@ -143,12 +143,12 @@ Pályaismereti gyakorlat
 IKT kompetenciák
 ::default::
 
-<div class="grid grid-cols-2  text-center">
+<div class="grid grid-cols-2 text-center gap-y-6">
   <div>
     <div class="i-carbon-code text-4xl mx-auto mb-2 text-[#1a2a5a]" />
     <h3 class="font-bold">Élő kódolás</h3>
-    <ul>
-      <li class="flex items-center"><div class="i-carbon-checkmark text-green mr-3" /> Valós idejű algoritmusépítést</li>
+    <ul class="inline-block text-left">
+      <li class="flex items-center"><div class="i-carbon-checkmark text-green mr-3" /> Valós idejű algoritmusépítés</li>
       <li class="flex items-center"><div class="i-carbon-checkmark text-green mr-3" /> Hibakeresés folyamata</li>
       <li class="flex items-center"><div class="i-carbon-close text-red mr-3" /> Statikus diák</li>
     </ul>
@@ -156,7 +156,7 @@ IKT kompetenciák
   <div>
     <div class="i-carbon-screen text-4xl mx-auto mb-2 text-[#1a2a5a]" />
     <h3 class="font-bold">Vizuális szemléltetés</h3>
-    <ul>
+    <ul class="inline-block text-left">
       <li class="flex items-center"><div class="i-carbon-checkmark text-green mr-3" /> Rejtett formázási jelek</li>
       <li class="flex items-center"><div class="i-carbon-checkmark text-green mr-3" /> Tabulátorok kivetítése</li>
     </ul>
@@ -164,7 +164,7 @@ IKT kompetenciák
   <div>
     <div class="i-carbon-hybrid-networking text-4xl mx-auto mb-2 text-[#1a2a5a]" />
     <h3 class="font-bold">Hibrid eszköztár</h3>
-    <ul>
+    <ul class="inline-block text-left">
       <li class="flex items-center"><div class="i-carbon-checkmark text-green mr-3" /> Hagyományos kréta-tábla</li>
       <li class="flex items-center"><div class="i-carbon-checkmark text-green mr-3" /> Interaktív tábla</li>
     </ul>
@@ -172,7 +172,7 @@ IKT kompetenciák
   <div>
     <div class="i-carbon-cloud-upload text-4xl mx-auto mb-2 text-[#1a2a5a]" />
     <h3 class="font-bold">Digitális szervezés</h3>
-    <ul>
+    <ul class="inline-block text-left">
       <li class="flex items-center"><div class="i-carbon-checkmark text-green mr-3" /> Feladatok begyűjtése</li>
       <li class="flex items-center"><div class="i-carbon-checkmark text-green mr-3" /> Hiányzók beírása</li>
     </ul>
@@ -235,8 +235,8 @@ Végső reflexió
 
 <div class="mt-12 bg-white/5 p-10 rounded-2xl border border-white/10 relative">
   <div class="i-carbon-quotes text-5xl absolute -top-6 -left-6 text-[#1a2a5a]" />
-  <p class="text-2xl italic leading-relaxed opacity-90">
+  <p class="text-2xl italic leading-relaxed opacity-90 mb-6">
     A tanítás nemcsak tudásátadás, hanem érzelmi biztonság és inspiráló közösség teremtése. Az IT szakember szerepéből reflektív pedagógussá váltam.
   </p>
-<h1 class="text-center"><strong>Köszönöm a figyelmet!</strong></h1>
+  <h1 class="text-center text-4xl font-bold text-[#1a2a5a]">Köszönöm a figyelmet!</h1>
 </div>
