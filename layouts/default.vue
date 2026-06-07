@@ -12,7 +12,7 @@
       </div>
     </header>
 
-    <main class="flex-1 w-full relative p-12 overflow-hidden">
+    <main class="flex-1 w-full relative p-6 overflow-hidden">
       <div
         class="absolute inset-0 opacity-40 flex justify-center items-center pointer-events-none"
       >
